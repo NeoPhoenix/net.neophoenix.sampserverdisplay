@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+    <category name="net.neophoenix.sampdisplay">
+		<item name="net.neophoenix.sampdisplay.title"><![CDATA[SA:MP server display]]></item>
+		<item name="net.neophoenix.sampdisplay.footer_online"><![CDATA[<p class="success" style="margin-top:4px;margin-bottom:1px">There are currently (MORE)%user_online users(/MORE) in %mapname on (JOIN)%hostname(/JOIN).(USER)<br/>User: %user_list(/USER)</p>]]></item>
+		<item name="net.neophoenix.sampdisplay.footer_offline"><![CDATA[<p class="error" style="margin-top:4px;margin-bottom:1px">The server %server_ip:%server_port is offline</p>]]></item>
+		<item name="net.neophoenix.sampdisplay.footer_invalid"><![CDATA[<p class="warning" style="margin-top:4px;margin-bottom:1px"><strong>The settings of server ID %server_id are entered correctly!</strong></p>]]></item>
+		<item name="net.neophoenix.sampdisplay.footer_no_players"><![CDATA[no]]></item>
+		<item name="net.neophoenix.sampdisplay.footer_more_players"><![CDATA[And more...]]></item>
+		<item name="net.neophoenix.sampdisplay.footer_too_much_players"><![CDATA[Es sind zu viele Spieler zum anzeigen online.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_online"><![CDATA[The server %server_ip:%server_port is online.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_offline"><![CDATA[Der server %server_ip:%server_port is offline.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_invalid"><![CDATA[The settings of server ID %server_id are entered correctly!]]></item>
+		<item name="net.neophoenix.sampdisplay.page_cache_age"><![CDATA[The cached info was updated %ageS seconds ago.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_rcon_guest"><![CDATA[WBB:Guest]]></item>
+		<item name="net.neophoenix.sampdisplay.page_kick_message"><![CDATA[You kicked %user_name (ID %user_id).]]></item>
+		<item name="net.neophoenix.sampdisplay.page_ban_message"><![CDATA[You banned %user_name (ID %user_id) gebannt]]></item>
+		<item name="net.neophoenix.sampdisplay.page_rcon_not_available"><![CDATA[RCON currently unavailable.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_tab_server"><![CDATA[Server]]></item>
+		<item name="net.neophoenix.sampdisplay.page_tab_user"><![CDATA[Players]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_link_players"><![CDATA[Players]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_link_history"><![CDATA[Log]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_announcements"><![CDATA[Announcements]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_content"><![CDATA[Information]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_key"><![CDATA[Name]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_value"><![CDATA[Value]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_mapname"><![CDATA[Mapname]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_hostname"><![CDATA[Hostname]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_gamemode"><![CDATA[Gamemode]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_weburl"><![CDATA[Web-URL]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_worldtime"><![CDATA[Time ingame]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_weather"><![CDATA[Weather-ID]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_sampversion"><![CDATA[SA:MP version]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_maxplayers"><![CDATA[Max players]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_server_players"><![CDATA[Amount of players currently on the server]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_no_players"><![CDATA[There are currently no players online.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_kick"><![CDATA[Kick player]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_ban"><![CDATA[Ban player]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_delete_entry"><![CDATA[Remove entry]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_entry_deleted"><![CDATA[You removed the entry with the ID %entry_id .]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_count_entries"><![CDATA[There are %countEntries entries for the current server.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_no_entries"><![CDATA[There are no entries.]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_entry_kick"><![CDATA[[%entryDateDay.%entryDateMonth.%entryDateYear - %entryDateHour:%entryDateMinutes] %modName kicked %targetName]]></item>
+		<item name="net.neophoenix.sampdisplay.page_content_moderation_entry_ban"><![CDATA[[%entryDateDay.%entryDateMonth.%entryDateYear - %entryDateHour:%entryDateMinutes] %modName banned %targetName]]></item>
+	</category>
+	<category name="wcf.acp.option">
+		<!-- Allgemein -->
+		<item name="wcf.acp.option.category.sampdisplay"><![CDATA[SA:MP server display]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay.description"><![CDATA[]]></item>
+		
+		<!-- Kategorien -->
+		<item name="wcf.acp.option.category.sampdisplay_general"><![CDATA[General]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay_general.description"><![CDATA[General settings for the SA:MP server display.]]></item>		
+		<item name="wcf.acp.option.category.sampdisplay_footer"><![CDATA[Footer]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay_footer.description"><![CDATA[Footer settings]]></item>
+		<item name="wcf.acp.option.category.sampdisplay_wbblite"><![CDATA[WBB Lite extension]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay_wbblite.description"><![CDATA[Settings for the WBB Lite]]></item>		
+		<item name="wcf.acp.option.category.sampdisplay_page"><![CDATA[Extended view]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay_page.description"><![CDATA[Settings for the extended server view]]></item>
+		<item name="wcf.acp.option.category.sampdisplay_servers"><![CDATA[Server list]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay_servers.description"><![CDATA[List of all SA:MP servers]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay_api"><![CDATA[HTTP API]]></item>	
+		<item name="wcf.acp.option.category.sampdisplay_api.description"><![CDATA[Interface for serversided Updates via HTTP Requests]]></item>
+		<item name="wcf.acp.option.category.sampdisplay_moderation"><![CDATA[Moderation history]]></item>
+		<item name="wcf.acp.option.category.sampdisplay_moderation.description"><![CDATA[Moderation history settings]]></item>
+
+		<!-- Allgemeine Einstellungen -->
+		<item name="wcf.acp.option.sampdisplay_general_cache"><![CDATA[Information caching]]></item>
+		<item name="wcf.acp.option.sampdisplay_general_cache.description"><![CDATA[Time for which the cache is valid (In seconds, recommended: 180)]]></item>
+		<item name="wcf.acp.option.sampdisplay_general_rcon_activate"><![CDATA[Activate RCON connection]]></item>	
+		<item name="wcf.acp.option.sampdisplay_general_rcon_activate.description"><![CDATA[Enables kicking/banning of users on the server. To make use of this feature, the RCON password has to be entered in the serverlist in the format "IP:PORT|Password".]]></item>
+		<item name="wcf.acp.option.sampdisplay_general_connect_users"><![CDATA[User to forum connection]]></item>	
+		<item name="wcf.acp.option.sampdisplay_general_connect_users.description"><![CDATA[Links users on the server with those in the forum.]]></item>
+		<item name="wcf.acp.option.sampdisplay_general_connect_users_type"><![CDATA[Connection type]]></item>	
+		<item name="wcf.acp.option.sampdisplay_general_connect_users_type.description"><![CDATA[Specifies how users are linked in the forum.]]></item>				
+		<item name="wcf.acp.option.type.sampdisplay_general_connect_users_type_name"><![CDATA[Linking via Name]]></item>
+		<item name="wcf.acp.option.type.sampdisplay_general_connect_users_type_score"><![CDATA[Linking via Score]]></item>
+		<item name="wcf.acp.option.sampdisplay_general_offline_cache"><![CDATA[Extra validity]]></item>
+		<item name="wcf.acp.option.sampdisplay_general_offline_cache.description"><![CDATA[Increases die validity of cached information of offline servers (recommended: 420, requires general Caching).]]></item>
+
+		<!-- Footeroptionen -->
+		<item name="wcf.acp.option.sampdisplay_footer_active"><![CDATA[Activate module]]></item>
+		<item name="wcf.acp.option.sampdisplay_footer_active.description"><![CDATA[Activates the footer module.]]></item>	
+		<item name="wcf.acp.option.sampdisplay_footer_index_exclusive"><![CDATA[Display only on front page]]></item>	
+		<item name="wcf.acp.option.sampdisplay_footer_index_exclusive.description"><![CDATA[Displays the viewer only on the front page.]]></item>
+		<item name="wcf.acp.option.sampdisplay_footer_multiple_server_new_line"><![CDATA[Wordwrap]]></item>
+		<item name="wcf.acp.option.sampdisplay_footer_multiple_server_new_line.description"><![CDATA[Activates wordwrap between the servers in the footer.]]></item>
+		<item name="wcf.acp.option.sampdisplay_footer_users"><![CDATA[User display]]></item>
+		<item name="wcf.acp.option.sampdisplay_footer_users.description"><![CDATA[Show users currently on the server.]]></item>
+		<item name="wcf.acp.option.sampdisplay_footer_user_limit"><![CDATA[User limitation]]></item>
+		<item name="wcf.acp.option.sampdisplay_footer_user_limit.description"><![CDATA[Limits the shown users in the footer.]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_text_active"><![CDATA[Option aktivieren]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_text_active.description"><![CDATA[Use this formatting instead of the given language variables. This option is recommended for WBB Lite, since management of language variables is not possible in it. Should there be access to WBB 3.x.x, this option is <strong>highly</strong> inadvisable, as it does not support multilingualism.]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_server_text"><![CDATA[Footeranzeige]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_server_text.description"><![CDATA[Formats the text in the footer. Variables:
+		<table border="0">
+			<tr><td><strong>%server_ip</strong></td><td>Server IP</td></tr>
+			<tr><td><strong>%server_port</strong></td><td>Server port</td></tr>		
+			<tr><td><strong>%user_online</strong></td><td>Amount of players currently online</td></tr>
+			<tr><td><strong>%user_max</strong></td><td>Slots</td></tr>
+			<tr><td><strong>%user_list</strong></td><td>List of users currently on the server</td></tr>
+			<tr><td><strong>%weather</strong></td><td>Weather ID</td></tr>
+			<tr><td><strong>%version</strong></td><td>SA:MP Version</td></tr>
+			<tr><td><strong>%hostname</strong></td><td>Hostname</td></tr>
+			<tr><td><strong>%gamemode</strong></td><td>Name of the gamemode</td></tr>
+			<tr><td><strong>%mapname</strong></td><td>Name of the map</td></tr>
+			<tr><td><strong>%gravity</strong></td><td>InGame gravitation</td></tr>
+			<tr><td><strong>%weburl</strong></td><td>WebURL of the server</td></tr>
+			<tr><td><strong>%worldtime</strong></td><td>Current time on the server</td></tr>
+			<tr><td><strong>(JOIN)Text(/JOIN)</strong></td><td>Direct connection to the server</td></tr>
+			<tr><td><strong>(MORE)Text(/MORE)</strong></td><td>Link to the extended view</td></tr>
+			<tr><td><strong>(USER)Text(/USER)</strong></td><td>Text only to be shown if players are online</td></tr>
+		</table>]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_server_text_offline"><![CDATA[Offline formatting]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_server_text_offline.description"><![CDATA[Formats the text in the footer if the server is offline. Variables:
+		<table border="0">
+			<tr><td><strong>%server_ip</strong></td><td>Server IP</td></tr>
+			<tr><td><strong>%server_port</strong></td><td>Server Port</td></tr>
+		</table>]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_server_text_invalid"><![CDATA[Warning formatting]]></item>
+		<item name="wcf.acp.option.sampdisplay_wbblite_server_text_invalid.description"><![CDATA[Formats the text in the footer, if the server settings are configured incorrectly. Variables:
+		<table border="0">
+			<tr><td><strong>%server_id</strong></td><td>Server ID</td></tr>
+		</table>]]></item>
+
+		<!-- Erweiterte Serverseite -->
+		<item name="wcf.acp.option.sampdisplay_page_active"><![CDATA[Activate module]]></item>
+		<item name="wcf.acp.option.sampdisplay_page_active.description"><![CDATA[Activates the module "extended server view".]]></item>
+		<item name="wcf.acp.option.sampdisplay_moderation_active"><![CDATA[Activate logging]]></item>
+		<item name="wcf.acp.option.sampdisplay_moderation_active.description"><![CDATA[Activates the moderation history.]]></item>
+		<item name="wcf.acp.option.sampdisplay_moderation_limit"><![CDATA[Limit entries]]></item>
+		<item name="wcf.acp.option.sampdisplay_moderation_limit.description"><![CDATA[Limits history entries on the page. 0 to display all entries.]]></item>
+
+		<!-- Serverliste -->
+		<item name="wcf.acp.option.sampdisplay_server_list"><![CDATA[Server]]></item>
+		<item name="wcf.acp.option.sampdisplay_server_list.description"><![CDATA[Connection information of the servers. Specify in format IP:Port|RCON_password. The RCON password is only needed, if the setting "RCON connect" in "extended server view"->"RCON connect" is activated.]]></item>
+
+		<!-- Gruppenberechtigungen -->
+		<item name="wcf.acp.group.option.category.user.sampdisplay"><![CDATA[SA:MP server display]]></item>
+	    <item name="wcf.acp.group.option.category.user.sampdisplay.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.user.sampdisplay_footer.canView"><![CDATA[Can see footer]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_footer.canView.description"><![CDATA[The user can see the server viewer in the footer.]]></item>
+		<item name="wcf.acp.group.option.user.sampdisplay_page.canViewUsers"><![CDATA[Can see user list]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_page.canViewUsers.description"><![CDATA[The user can see the list of users on the server.]]></item>
+		<item name="wcf.acp.group.option.user.sampdisplay_server.canJoin"><![CDATA[Can join server]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_server.canJoin.description"><![CDATA[The user can join the server via a direct link.]]></item>
+		<item name="wcf.acp.group.option.user.sampdisplay_page.canView"><![CDATA[Can see extended server view]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_page.canView.description"><![CDATA[The user can see the extended server view.]]></item>
+		<item name="wcf.acp.group.option.user.sampdisplay_moderation.canView"><![CDATA[Can see moderation history]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_moderation.canView.description"><![CDATA[The user can see the moderation history in the extended server view.]]></item>
+		<item name="wcf.acp.group.option.user.sampdisplay_moderation.canDelete"><![CDATA[Can delete moderation histroy]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_moderation.canDelete.description"><![CDATA[The user can delete individual entries in the moderation history.]]></item>
+		<item name="wcf.acp.group.option.user.sampdisplay_server.canKick"><![CDATA[Can kick players]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_server.canKick.description"><![CDATA[The user can kick players via the extended server view.]]></item>	
+		<item name="wcf.acp.group.option.user.sampdisplay_server.canBan"><![CDATA[Can ban players]]></item>
+	    <item name="wcf.acp.group.option.user.sampdisplay_server.canBan.description"><![CDATA[The user can ban players via the extended server view.]]></item>
+
+		<!-- Serverliste -->
+		<item name="wcf.acp.option.sampdisplay_api_active"><![CDATA[Activate API]]></item>
+		<item name="wcf.acp.option.sampdisplay_api_active.description"><![CDATA[Activates the API for serversided updates via HTTP requests.]]></item>
+		<item name="wcf.acp.option.sampdisplay_api_auth"><![CDATA[AUTH Key]]></item>
+		<item name="wcf.acp.option.sampdisplay_api_auth.description"><![CDATA[Key for HTTP requests, so that the API can be used.]]></item>
+	</category>
+</language>
